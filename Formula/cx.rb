@@ -2,7 +2,7 @@ class Cx < Formula
   desc "Semantic code navigation for AI agents"
   homepage "https://github.com/ind-igo/cx"
   url "https://github.com/ind-igo/cx/archive/refs/tags/v0.5.2.tar.gz"
-  sha256 "d9c92511b5b1ccdabd985a07bee502ac84becfc6f5b04b7bb4859fc93edc18b2"
+  sha256 "500cd73d5a8e4e5d30a3199ecf252a5341ad7b3cef5aa85cd6dec098dc541021"
   license "MIT"
 
   depends_on "rust" => :build
