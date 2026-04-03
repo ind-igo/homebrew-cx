@@ -1,26 +1,26 @@
 class Cx < Formula
   desc "Semantic code navigation for AI agents"
   homepage "https://github.com/ind-igo/cx"
-  version "0.6.1-rc2"
+  version "0.6.1-rc3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc2/cx-aarch64-apple-darwin.tar.gz"
-      sha256 "934678a58c57f6521403126a84a0f3b69711c65a619e43065670e25f065fd32c"
+      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc3/cx-aarch64-apple-darwin.tar.gz"
+      sha256 "e8b9857bd59f8af70add7e1712e0f1bb6470dab6214f4bf4e86f91830948733f"
     else
-      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc2/cx-x86_64-apple-darwin.tar.gz"
-      sha256 "b718b3e2c6607b4e3d81a273d706bc2f0543c14c247bf99bc123706c4f6edafa"
+      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc3/cx-x86_64-apple-darwin.tar.gz"
+      sha256 "b87a77c08fb95e4896cb8967cc0eeff4c2092050e31f7391b6260c8309eccf7c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc2/cx-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4a17084fe24d1004c4101d174cc825ed3b97681afd2c963b44971faf8110d3df"
+      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc3/cx-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3fa4f3d6d3c51cb8b9e18f5c4c9ce1a3071cdcec41a2241a801d02ccedff6a37"
     else
-      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc2/cx-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a4e77d4f4b1b59c2702b7276688c460053def58d85a1bcd52706fd755b9bdcee"
+      url "https://github.com/ind-igo/cx/releases/download/v0.6.1-rc3/cx-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "37690b8ae29708999003127757076cfa1dff25d2580b6bbad89fd74237f20888"
     end
   end
 
